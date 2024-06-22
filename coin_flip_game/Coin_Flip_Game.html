@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .text{
+        font-family: Roboto; 
+        font-size: 30px;
+        text-align: center;
+      }
+      .heads{
+        height: 90px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .tails{
+        height: 95px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .reset{
+        height: 100px;
+        padding-bottom: 5px;
+        object-fit: cover;
+        object-position: center;
+      }
+    </style>
+  </head>
+  <body>  
+    <p class="text">Coin Flip Game</p>
+    <center><button title="Heads" style="background-color: white;border: none;padding: 0px;margin: 10px;cursor: pointer;" onclick="playgame('heads')">
+    <img class="heads" style="padding:0px;margin: 0px;" src="head.png">
+  </button>
+
+    <button title="Tails" style="background-color: white;border: none;padding: 0px;margin: 10px;cursor: pointer;" onclick="playgame('tails')" >
+    <img class="tails" src="tails.png"></button>
+    <button title="Reset Score" style="background-color: white;border: none;padding: 0px;margin: 10px;cursor: pointer;" onclick="
+    score.wins =0;
+    score.lose=0;
+    localStorage.removeItem('score_C_F_G');
+    alert(`Done \nwins : ${score.wins} and loses : ${score.lose}`)" >
+    <img class="reset" src="reset.png">
+  </button></center>
+    <script>
+      let score =JSON.parse(localStorage.getItem('score_C_F_G'))||{
+        wins :0,
+        lose :0,
+      }
+      function playgame(playerMove){
+          computerMove = pickComputerMove();
+          if(playerMove==computerMove){
+            score.wins++;
+          }else{
+            score.lose++;
+          }
+          localStorage.setItem('score_C_F_G',JSON.stringify(score));
+          alert(`players choice : ${playerMove} ,\ncomputer's Move : ${computerMove},\nWins : ${score.wins},\nloses : ${score.lose}`);
+      }
+
+      function pickComputerMove() {
+        let computerMove = '';
+        const randomNumber = Math.random();
+        if(randomNumber>=0 && randomNumber <=(1/2)){
+          computerMove = 'heads';
+        }else{
+          computerMove='tails';
+        }
+        return computerMove;
+      }
+    </script>
+    <p style="text-align: center;">-by Tharun Chanda</p>
+  </body>
+</html>
