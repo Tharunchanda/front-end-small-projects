@@ -1,0 +1,46 @@
+*{
+  background-color:black;
+  color:white;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.rock{
+  height: 100px;
+  padding: 0px;
+  margin: 5px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.paper{
+  height: 100px;
+  padding: 0px;
+  margin: 5px;
+  border: none;
+  border-radius:100px;
+  cursor: pointer;
+}
+.scissors{
+  height: 100px;
+  padding: 0px;
+  margin: 5px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.rps{
+  height: 50px;
+  padding: 0px;
+  margin: 5px;
+  border: none;
+}
+.reset{
+  height:50px;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 100px;
+}
