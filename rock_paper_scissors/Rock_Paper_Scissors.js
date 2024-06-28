@@ -69,3 +69,18 @@ function updateScore(){
   document.querySelector('.js-score')
   .innerHTML =`Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`;
 }
+let isAutoplaying = false;
+let intervalId;
+function autoplay(){
+  if(!isAutoplaying){
+    intervalId= setInterval(
+      function(){
+        const playerMove = pickComputerMove();
+        playGame(playerMove);
+      },1000)
+      isAutoplaying=true;
+  }else{
+    clearInterval(intervalId);
+    isAutoplaying=false;
+  }
+}
