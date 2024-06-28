@@ -44,3 +44,13 @@ body{
   cursor: pointer;
   border-radius: 100px;
 }
+.auto-play{
+  height: 80px;
+  padding: 0px;
+  margin-left: 10px;
+  border: none;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 100px;
+  width: 80px;
+}
