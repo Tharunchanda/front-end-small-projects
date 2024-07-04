@@ -54,3 +54,9 @@ body{
   border-radius: 100px;
   width: 80px;
 }
+.y-s-buttons{
+  background-color: white;
+  color: black;
+  width: 50px;
+  height: 30px;
+}
