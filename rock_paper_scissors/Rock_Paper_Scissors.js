@@ -6,6 +6,20 @@ let score = JSON.parse(localStorage.getItem('score')) || {
 updateScore();
 
 
+document.body.addEventListener('keydown',(event)=>{
+  if(event.key==='r'){
+    playGame('rock');
+  }else if(event.key ==='p'){
+    playGame('paper');
+  }else if(event.key==='s'){
+    playGame('scissors');
+  }else if(event.key === 'a'){
+    autoplay();
+  }else if(event.key==='Backspace'){
+    reset_ask();
+  }
+});
+
 function playGame(playerMove) {
   const computerMove = pickComputerMove();
   let result = '';
@@ -83,4 +97,17 @@ function autoplay(){
     clearInterval(intervalId);
     isAutoplaying=false;
   }
+}
+function reset(){
+      score.wins = 0;
+      score.losses = 0;
+      score.ties = 0;
+      localStorage.removeItem('score');
+      updateScore();
+}
+r_a =document.querySelector('.reset-ask');
+function reset_ask(){
+  r_a.innerHTML='<p style="display:inline-block">Are you sure you want to reset the score</p> \
+  <button class="y-s-buttons" onclick="reset();r_a.innerHTML=``;">Yes</button>\
+  <button class="y-s-buttons" onclick="r_a.innerHTML=``;">No</button>';
 }
