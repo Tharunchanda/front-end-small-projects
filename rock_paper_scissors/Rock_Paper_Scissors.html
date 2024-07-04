@@ -6,17 +6,17 @@
   </head>
   <center><body>
     <p class="title" style="font-size: 30px;">Rock Paper Scissors</p><br>
-    <button title="Rock" onclick="
+    <button title="Rock (r)" onclick="
       playGame('rock');
       "style="border:none;">
       <img class="rock" src="rock.png">  
     </button>
-    <button title="Paper" onclick="
+    <button title="Paper (p)" onclick="
       playGame('paper');
       " style="border: none;">
       <img class="paper" style="height: 100px;" src="paper.png">
     </button>
-    <button title="Scissor" onclick="
+    <button title="Scissor (s)" onclick="
       playGame('scissors');
       "style="border:none;">
       <img class="scissors" style="height: 100px;" src="scissors.png">
@@ -26,19 +26,15 @@
     <p class="js-moves" style="font-size: 20px;"></p>
     <p class="js-score" style="font-size: 16px; margin-top: 40px;"></p>
 
-    <button title="Reset" onclick="
-      score.wins = 0;
-      score.losses = 0;
-      score.ties = 0;
-      localStorage.removeItem('score');
-      updateScore();"
+    <button title="Reset (Backspace)" onclick="reset_ask()"
       class="reset">
       <img class="reset" style="height: 100px;" src="reset.png">
     </button>
-    <button title="Auto play" class="auto-play" onclick="
+    <button title="Auto play (a)" class="auto-play" onclick="
       autoplay();
     "><img class="auto-play" src="auto_play.jpeg">
     </button>
+    <p class="reset-ask"></p>
     <p class="logo">-by <i>Tharun chanda</i></p>
     <script src="Rock_Paper_Scissors.js"></script>
   </body></center>
