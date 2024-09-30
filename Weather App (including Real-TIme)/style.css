@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rimouski', sans-serif;
+}
+
+body {
+    background-color: #293251;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    font-size: 16px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 350px;
+    background-color: #FFF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+}
+
+
+.app-title {
+    background-color: #F4F9FF;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.app-title p {
+    margin: 0;
+    font-size: 1.5em;
+    color: #293251;
+    font-weight: bold;
+}
+
+
+.notification {
+    display: none;
+    background-color: #f8d7da;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #f5c2c7;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.notification p {
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+
+.weather-container {
+    background-color: #F4F9FF;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+.weather-icon img {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.temperature-value {
+    font-size: 4em;
+    color: #293251;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+
+.temperature-value:hover {
+    color: #f39c12;
+}
+
+.temperature-value span {
+    font-size: 0.5em;
+}
+
+
+.temperature-description p {
+    color: #293251;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.location p {
+    color: #293251;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .app-title p {
+        font-size: 1.2em;
+    }
+
+    .temperature-value {
+        font-size: 3.5em;
+    }
+}
+
+body {
+    background-color: #293251;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    font-size: 16px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 350px;
+    background-color: #FFF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+}
+
+
+.clock {
+    background-color: #293251;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #f39c12;
+}
+
+#time {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.app-title {
+    background-color: #F4F9FF;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.app-title h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #293251;
+    font-weight: bold;
+}
