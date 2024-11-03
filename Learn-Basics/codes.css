@@ -1,0 +1,403 @@
+.intro1{
+  border: 2px dashed black;
+      padding: 2px;
+      font-size: 26px;
+}
+.intro2{
+  border: 2px dotted black;
+}
+.table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#latest{
+  font-size: 25px;
+  color: purple;
+}
+.subscribe-button {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 100px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  transition: opacity 1s;
+}
+.subscribe-button:hover {
+  opacity: 0.7;
+}
+.subscribe-button:active {
+  opacity: 0.3;
+}
+.join-button {
+  background-color: white;
+  border-color: rgb(69, 113, 202);
+  color: rgb(69, 113, 202);
+  border-style: solid;
+  border-width: 1 px;
+  height: 36px;
+  width: 75px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: background-color 1s, color 1s;
+}
+.join-button:hover {
+  background-color: rgb(69, 113, 202);
+  color: white;
+}
+.join-button:active {
+  opacity: 0.5;
+}
+.Tweet {
+  background-color: rgb(2, 158, 255);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  height: 36px;
+  width: 74px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  transition: box-shadow 0.15s;
+}
+.Tweet:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.stretch {
+  cursor: pointer;
+}
+.uber {
+  background-color: black;
+  color: white;
+  height: 36px;
+  width: 110px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  border-style: solid;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.amazon1 {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  height: 36px;
+  width: 150px;
+  border: none;
+  border-radius: 18px;
+  margin-bottom: 8px;
+  font: bold;
+  font-size: 15px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.amazon2 {
+  background-color: rgb(255, 164, 28);
+  color: black;
+  height: 36px;
+  width: 150px;
+  border: none;
+  border-radius: 18px;
+  margin-bottom: 8px;
+  font: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
+.github {
+  background-color: rgb(46, 164, 79);
+  border: none;
+  color: white;
+  border-radius: 7px;
+  height: 36px;
+  width: 100px;
+  font: bold;
+  font-style: normal;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.bootstrap1 {
+  background-color: rgb(121, 82, 179);
+  border: none;
+  color: white;
+  border-radius: 3px;
+  height: 36px;
+  width: 110px;
+  font: bold;
+  font-style: normal;
+  cursor: pointer;
+  margin-bottom: 8px;
+  margin-right: 5px;
+}
+.bootstrap2 {
+  border-color: rgb(121, 82, 179);
+  background-color: white;
+  color: rgb(121, 82, 179);
+  border-radius: 3px;
+  height: 36px;
+  width: 110px;
+  font: bold;
+  font-style: normal;
+  margin-bottom: 8px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.stretch {
+  background-color: rgba(131, 251, 135, 0.998);
+  color: rgb(4, 4, 4);
+  border: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  transition: height 1s, width 1s, font-size 1s;
+}
+.stretch:hover {
+  height: 50px;
+  width: 150px;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Arial;
+}
+.intro {
+  color: rgb(235, 168, 44);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.i1 {
+  font-weight: bold;
+  opacity: 0.8;
+}
+.i2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.buy {
+  background-color: rgb(2, 103, 255);
+  border: none;
+  height: 36px;
+  width: 60px;
+  border-radius: 18px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.t1 {
+  font-family: Montserrat;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.t2 {
+  margin-top: 0px;
+  font-family: Montserrat;
+  text-align: center;
+}
+.image1 {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 75px;
+  vertical-align: middle;
+}
+.text1 {
+  font-size: 20px;
+  font-family: Roboto;
+  border-radius: 15px;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+.shadow-text-box {
+  font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  padding-bottom: 1px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25); /* Shadow */
+  border: none; /* No border */
+  outline: none; /* Remove outline */
+  font-size: 16px;
+  resize: none; /* Disable resizing */
+}
+.google {
+  display: block;
+  margin-left: 140px;
+  width: 200px;
+  margin-bottom: 0px;
+}
+.uber1 {
+  margin-top: 10px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.input1 {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: none;
+}
+.input2 {
+  margin: 10px;
+  display: block;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: none;
+}
+.uber2 {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: none;
+  height: 36px;
+  width: 140px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.div1 {
+  display: inline-block;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+}
+.youtubemusic1 {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+.youtubemusic2 {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.google1 {
+  background-color: rgba(0, 0, 0, 0.04);
+  border: none;
+  margin-left: 120px;
+  padding: 10px;
+  width: 130px;
+}
+.google2 {
+  border: none;
+  padding: 10px;
+  width: 130px;
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.image2 {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+.facebookname {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.facebookmfriends {
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.facebookaddf {
+  display: block;
+  font-family: Roboto;
+  background-color: rgb(1, 157, 254);
+  color: rgb(255, 255, 255);
+  text-align: left;
+  border-radius: 5px;
+  margin: 10px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 20px;
+  width: 90px;
+}
+.facebook {
+  display: inline-block;
+  width: 200px;
+  height: 330px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 10px;
+}
+.youtube {
+  background-color: black;
+}
+.youtubeimage,
+.apnaclg {
+  display: inline-block;
+  width: 200px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  border-radius: 8px;
+}
+.youtube-info {
+  color: white;
+  margin-left: 15px;
+  font-weight: bold;
+  margin-top: 25px;
+  width: 480px;
+  display: inline-block;
+  vertical-align: top;
+}
+.apnaclg-info2 {
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.7);
+}
+.apnaclg-info3 {
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.7);
+}
+.searchbar {
+  border-radius: 15px;
+  max-width: 600px;
+  border: none;
+  padding: 5px;
+  width: 100%;
+  height: 20px;
+  flex: 1;
+}
+.instagram{
+  height: 45px;
+  cursor: pointer;
+  align-items: center;
+}
+.linkedin{
+  height: 45px;
+  cursor: pointer;
+  align-items: center;
+  
+}
