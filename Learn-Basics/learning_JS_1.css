@@ -1,0 +1,200 @@
+body{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+.button1{
+  background-image: url('./image.png');
+  background-size: contain;
+  /*-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 40px;
+  cursor: pointer;
+}
+.js-subscribe-button{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border:none;
+  width: 100px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.is-subscribed{
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+.amazon-cal{
+  color: white;
+  background-color: green;
+  border :none;
+  padding: 10px;
+  cursor: pointer;
+}
+.amazon-txt{
+  height: 31px;
+  width: 300px;
+}     
+.todo-grid,
+.todo-input-grid {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+.todo-input-grid {
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+.name-input,
+.due-date-input {
+  font-size: 15px;
+  padding: 6px;
+}
+.add-todo-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  height: 30px;
+  padding: 5px 20px;
+}
+.delete-todo-button {
+  background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.todo-grid,
+.todo-input-grid {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.todo-input-grid {
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.name-input,
+.due-date-input {
+  font-size: 15px;
+  padding: 6px;
+}
+
+.add-todo-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.delete-todo-button {
+  background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.a-r-button{
+  color: white;
+  background-color:brown;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+.js-event-listener-button{
+  margin: 10px;
+  background-color:coral;
+  color: white;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+}
+.container{
+  text-align: center;
+  border: 2px solid black;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4e4ba;
+}
+.in-container{
+  background-color:white;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 45vh;
+  width: 40vh;
+}
+.in-container select,
+.in-container button,
+.in-container input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+.in-container form input{
+  border: 1px solid lightgray;
+  font-size: 1rem;
+  height: 3rem;
+  padding-left: 0.5rem;
+}
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.dropdown i {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.select-container img {
+  max-width: 2rem;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  border-radius: 0.5rem;
+  border: 1px solid lightgray;
+}
+
+.select-container select {
+  font-size: 1rem;
+  width: auto;
+}
+
+.msg {
+  margin: 2rem 0 2rem 0;
+}
+
+.in-container form button {
+  height: 3rem;
+  background-color: #af4d98;
+  color: #fff;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
